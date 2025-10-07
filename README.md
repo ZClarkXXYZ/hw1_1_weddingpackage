@@ -16,4 +16,7 @@ Resources used:
 Builder Slides: https://docs.google.com/presentation/d/128eyDjZ4w79S_CpXETPzL7WgCVPMFCzN8IR68zB5090/edit?slide=id.p#slide=id.p  
 Singleton Slides: https://docs.google.com/presentation/d/1KSwrAJPBvIemAcypSv3QoUhX8UI2TKi0BXGr5CPGUVA/edit?slide=id.g2d3164da2be_1_136#slide=id.g2d3164da2be_1_136  
 Factory Slides  https://docs.google.com/presentation/d/1Wkj1tmX4K-Jv8D9NpA3jBcSw4bp6H-oBhuopkNIp15I/edit  
-Asignments sheet: https://docs.google.com/document/d/1T0gyoINc_Fiv3waCACBC6Rbztz4MY3wq6pnyoYOZNJ0/edit?tab=t.0  
+Asignments sheet: https://docs.google.com/document/d/1T0gyoINc_Fiv3waCACBC6Rbztz4MY3wq6pnyoYOZNJ0/edit?tab=t.0 
+
+
+<img link="hw1_1_screenshot1.png"></<img>
