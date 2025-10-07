@@ -18,5 +18,4 @@ Singleton Slides: https://docs.google.com/presentation/d/1KSwrAJPBvIemAcypSv3QoU
 Factory Slides  https://docs.google.com/presentation/d/1Wkj1tmX4K-Jv8D9NpA3jBcSw4bp6H-oBhuopkNIp15I/edit  
 Asignments sheet: https://docs.google.com/document/d/1T0gyoINc_Fiv3waCACBC6Rbztz4MY3wq6pnyoYOZNJ0/edit?tab=t.0 
 
-
-<img> hw1_1_screenshot1.png</<img>
+hw1_1_screenshot1.png
