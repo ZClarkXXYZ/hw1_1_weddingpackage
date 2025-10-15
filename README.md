@@ -1,4 +1,4 @@
-Main is the test class.  
+Main is the test class.  (This project has been updated)
 tests:  
 -making multiple instance of WeddingPlanner (to make sure it has singleton design)  
 -making each of the 3 different WeddingPackage (Traditional, Luxury, Destination)  
@@ -18,4 +18,4 @@ Singleton Slides: https://docs.google.com/presentation/d/1KSwrAJPBvIemAcypSv3QoU
 Factory Slides  https://docs.google.com/presentation/d/1Wkj1tmX4K-Jv8D9NpA3jBcSw4bp6H-oBhuopkNIp15I/edit  
 Asignments sheet: https://docs.google.com/document/d/1T0gyoINc_Fiv3waCACBC6Rbztz4MY3wq6pnyoYOZNJ0/edit?tab=t.0 
 
-<img width="1392" height="592" alt="hw1_1_screenshot1" src="https://github.com/user-attachments/assets/8de1744c-3cd2-4c16-90d3-1e4a9d085549" />
+
