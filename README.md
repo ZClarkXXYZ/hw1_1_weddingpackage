@@ -1,4 +1,4 @@
-Main is the test class.  
+Main is the test class.  (This project has been updated)
 tests:  
 -making multiple instance of WeddingPlanner (to make sure it has singleton design)  
 -making each of the 3 different WeddingPackage (Traditional, Luxury, Destination)  
