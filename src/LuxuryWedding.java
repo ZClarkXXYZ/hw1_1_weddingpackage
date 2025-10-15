@@ -19,7 +19,7 @@ public class LuxuryWedding extends WeddingPackage{
     //Print all the wedding package information
     @Override
     public void printWeddingInfo() {
-        System.out.println("Luxury Wedding Package:");
+        System.out.println("Package: Luxury Wedding");
         venue.venueInfo();
         catering.cateringInfo();
         decorations.decorationInfo();

@@ -10,7 +10,7 @@ public class TraditionalWedding extends WeddingPackage{
     public TraditionalWedding() {
         venue.setVenue("Church and Event Center");
         catering.setCatering("Classical Buffet");
-        decorations.setDecorations("Tradional Flowers");
+        decorations.setDecorations("Traditional Flowers");
         photography.setPhotography("Local Photography");
     }
 
@@ -18,7 +18,7 @@ public class TraditionalWedding extends WeddingPackage{
     //Print all the wedding package information
     @Override
     public void printWeddingInfo() {
-        System.out.println("Traditional Wedding Package:");
+        System.out.println("Package: Traditional Wedding");
         venue.venueInfo();
         catering.cateringInfo();
         decorations.decorationInfo();

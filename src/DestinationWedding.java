@@ -18,7 +18,7 @@ public class DestinationWedding extends WeddingPackage{
     //Print all the wedding package information
     @Override
     public void printWeddingInfo() {
-        System.out.println("Destination Wedding Package:");
+        System.out.println("Package: Destination Wedding");
         venue.venueInfo();
         catering.cateringInfo();
         decorations.decorationInfo();

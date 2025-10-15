@@ -1,47 +1,26 @@
+import javax.sound.midi.SysexMessage;
 import java.util.Scanner;
 public class WeddingPackageBuilder {
     private WeddingPackage weddingPackage;
-    private String input;
-    private Scanner scnr = new Scanner(System.in);
 
     //Builder, change venue, catering, decorations, photography step based on input
-    public WeddingPackage buildWedding(WeddingPackage basePackage) {
-        //There is either having any input, or having select choices.
-        //Any input was chosen for this, but select choices would likely be better
-        // if there is "sets" of ways to modify a wedding package, which would use an interface and builder classes
-
-        weddingPackage = basePackage;
-        System.out.println("Current Package");
-        basePackage.printWeddingInfo();
-
+    public WeddingPackage buildWedding(WeddingPackage basePackage, String venue, String catering, String decorations, String photography) {
         //Venue
-        System.out.println("Enter new venue (or 'none' to keep the same)");
-        input = scnr.nextLine();
-        if (!(input.equals("none") && !(input.equals("None")))) {
-            weddingPackage.setWeddingVenue(input);
-        }
+        weddingPackage.setWeddingVenue(venue);
+
 
         //Catering
-        System.out.println("Enter new catering (or 'none' to keep the same)");
-        input = scnr.nextLine();
-        if (!(input.equals("none") && !(input.equals("None")))) {
-            weddingPackage.setWeddingCatering(input);
-        }
+        weddingPackage.setWeddingCatering(catering);
+
 
         //Decorations
-        System.out.println("Enter new decoration selection (or 'none' to keep the same)");
-        input = scnr.nextLine();
-        if (!(input.equals("none") && !(input.equals("None")))) {
-            weddingPackage.setWeddingDecorations(input);
-        }
+        weddingPackage.setWeddingDecorations(decorations);
+
 
 
         //Photography
-        System.out.println("Enter new photography selection (or 'none' to keep the same)");
-        input = scnr.nextLine();
-        if (!(input.equals("none") && !(input.equals("None")))) {
-            weddingPackage.setWeddingPhotography(input);
-        }
+        weddingPackage.setWeddingPhotography(photography);
+
 
         //Return the Wedding Package modified step by step
         return weddingPackage;

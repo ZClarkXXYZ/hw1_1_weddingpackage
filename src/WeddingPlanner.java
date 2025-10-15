@@ -1,4 +1,5 @@
 public class WeddingPlanner {
+    WeddingPackage wedding;
 
     //Wedding package, Wedding package builder
     private WeddingFactory weddingFactory = new WeddingFactory();
@@ -29,17 +30,22 @@ public class WeddingPlanner {
 
     //From input from main/testing, get the wedding package from the wedding factory
     public WeddingPackage planWedding(String chosenPackage) {
-        return(weddingFactory.createWedding(chosenPackage));
+        System.out.println("Planning "+ chosenPackage + " Wedding:"); //changed, prints out the planning
+        wedding = weddingFactory.createWedding(chosenPackage); //Changed: wedding is stored
+        wedding.printWeddingInfo();
+        return(wedding);
     }
 
-    //From input from main/testing, get the wedding package from the wedding factory
-    //From input from main/testing, use wedding package builder to modify the wedding package
+    //from input, plan wedding, then build it with hardcoded parameters
     public WeddingPackage planWedding(String chosenPackage, boolean modifyPackage) {
-        WeddingPackage weddingPackage = planWedding(chosenPackage);
+        System.out.println("Planning "+ chosenPackage + " Wedding:");
+        wedding = weddingFactory.createWedding(chosenPackage);
         if (modifyPackage) {
             //Build the wedding
-            weddingPackage = weddingBuilder.buildWedding(weddingPackage);
+            System.out.println("Building custom  "+ chosenPackage + " Wedding:");
+            wedding = weddingBuilder.buildWedding(wedding, "Beach","Gourmet buffet","No flowers","Local photography");
+            wedding.printWeddingInfo();
         }
-        return weddingPackage;
+        return wedding;
     }
 }
