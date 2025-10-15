@@ -5,6 +5,8 @@ public class WeddingPackageBuilder {
 
     //Builder, change venue, catering, decorations, photography step based on input
     public WeddingPackage buildWedding(WeddingPackage basePackage, String venue, String catering, String decorations, String photography) {
+        weddingPackage = basePackage;
+
         //Venue
         weddingPackage.setWeddingVenue(venue);
 
